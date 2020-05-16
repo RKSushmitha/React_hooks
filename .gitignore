@@ -1,0 +1,42 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+callback-hook/node_modules
+effect-hook/node_modules
+reduce-hook/node_modules
+state-hooks/node_modules
+context-hook/node_modules
+react-hooks/node_modules
+reducer-context-hook/node_modules
+/node_modules
+
+# testing
+callback-hook/coverage
+effect-hook/coverage
+reduce-hook/coverage
+state-hooks/coverage
+context-hook/coverage
+react-hooks/coverage
+reducer-context-hook/coverage
+/coverage
+
+# production
+callback-hook/build
+effect-hook/build
+reduce-hook/build
+state-hooks/build
+context-hook/build
+react-hooks/build
+reducer-context-hook/build
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
